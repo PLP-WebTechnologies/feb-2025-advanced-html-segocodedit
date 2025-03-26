@@ -1,0 +1,92 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ol {
+  text-align: left;
+}
+
+h3 {
+  text-align: center;
+}
+
+img {
+  width: 500px;
+  margin: 0 auto;
+  align-items: center;
+  padding: 20px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 11px;
+  text-align: left;
+}
+
+th {
+  background-color: #00a5a7;
+  color: white;
+}
+
+tr:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transform: scale(1.02);
+}
+
+table {
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  width: 800px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+label {
+  display: block;
+  margin: 20px;
+}
+
+form {
+  padding: 50px;
+  width: 450px;
+  margin: 0 auto;
+  border: 0px solid black;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select {
+  margin-bottom: 8px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+select {
+  display: flex;
+}
+
+button {
+  border-radius: 15px;
+  padding: 10px;
+  background-color: #00a5a7;
+  color: white;
+  border: none;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+button:hover {
+  background-color: white;
+  color: #00a5a7;
+  transform: scale(1.02);
+  border: 1px solid #00a5a7;
+}

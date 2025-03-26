@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Advanced HTML5 Elements and Forms</title>
+  </head>
+  <body>
+    <!-- Add an ordered list with roman numerals -->
+    <h3>PLP courses</h3>
+    <ol type="i">
+      <li>Software Development</li>
+      <li>Php Develoer</li>
+      <li>Node.js Developer</li>
+    </ol>
+
+    <!-- Add an external image from pexels.com -->
+    <img
+      src="https://images.pexels.com/photos/1181359/pexels-photo-1181359.jpeg"
+      alt="coding"
+    />
+
+    <!-- Add a table of 5 contacts with; name, address, mobile and emails -->
+
+    <table>
+      <h3>Table</h3>
+      <tr>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Mobile</th>
+        <th>Email</th>
+      </tr>
+
+      <!-- first contact -->
+      <tr>
+        <td>Jane Smith</td>
+        <td>123 Smith Street</td>
+        <td>123 456 789</td>
+        <td>janesmith@gmail.com</td>
+      </tr>
+
+      <!-- second contact -->
+      <tr>
+        <td>John Doe</td>
+        <td>321 JD Avenue</td>
+        <td>987 654 321</td>
+        <td>johndoe@gmail.com</td>
+      </tr>
+
+      <!-- third contact -->
+      <tr>
+        <td>Michael Jackson</td>
+        <td>100 North Carolwood Drive</td>
+        <td>225 456 789</td>
+        <td>mjackson@gmail.com</td>
+      </tr>
+
+      <!-- fourth contact -->
+      <tr>
+        <td>Jhene aiko</td>
+        <td>13 Eastwood crescent</td>
+        <td>985 456 584</td>
+        <td>jheneA@icloud.com</td>
+      </tr>
+
+      <!-- fifth contact -->
+      <tr>
+        <td>Summer walker</td>
+        <td>876 Winter street</td>
+        <td>841 488 789</td>
+        <td>summerwalker24@outlook.com</td>
+      </tr>
+    </table>
+
+    <!-- Add a registration form -->
+    <h3>Form</h3>
+
+    <form>
+      <!-- Name -->
+      <label for="name"
+        >Name
+        <input type="text" id="name" placeholder="John Doe" required />
+      </label>
+
+      <!-- email -->
+      <label for="email"
+        >Email
+        <input type="email" id="email" placeholder="info@gmail.com" required />
+      </label>
+
+      <!-- password -->
+      <label for="password"
+        >Password
+        <input
+          type="password"
+          id="password"
+          pattern="[a-z0-5]{6,}"
+          placeholder="Password"
+          required
+        />
+      </label>
+
+      <!-- date -->
+      <label for="date"
+        >Date of Birth
+        <input type="date" id="date" required />
+      </label>
+
+      <!-- A dropdown, radio buttons, and checkboxes. -->
+
+      <!-- dropdown -->
+      <label for="paymemt">Payment:</label
+      ><select id="payment">
+        <option>Apple Pay</option>
+        <option>Visa</option>
+        <option>Mastercard</option>
+        <option>Direct EFT</option>
+      </select>
+
+      <!-- radio buttons -->
+
+      <label for="gender">Gender: </label>
+
+      <!-- radio 1 -->
+      <label for="male">
+        <input type="radio" id="male" name="gender" required /> Male
+      </label>
+
+      <!-- radio 2 -->
+      <label for="female">
+        <input type="radio" id="female" name="gender" required /> Female
+      </label>
+
+      <!-- checkbox -->
+      <label for="terms-and-conditions">
+        <input id="terms-and-conditions" type="checkbox" required /> I accept
+        the <a href="#">terms and conditions</a>
+      </label>
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
